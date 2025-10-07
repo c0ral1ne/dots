@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-export DOTS="$HOME/dots"
+export DOTS="$HOME/Personal/dots"
 
 ZSH_THEME="robbyrussell"
 
@@ -7,6 +7,7 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
+	zsh-jump
 )
 
 source $ZSH/oh-my-zsh.sh
