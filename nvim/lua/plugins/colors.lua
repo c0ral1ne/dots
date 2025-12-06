@@ -1,7 +1,7 @@
 return {
   {
     "catppuccin/nvim",
-    lazy = true,
+    lazy = false,
     name = "catppuccin",
     opts = {
       flavour = "macchiato",
@@ -15,6 +15,7 @@ return {
         },
       },
       integrations = {
+        snacks = true,
         aerial = true,
         alpha = true,
         cmp = true,
@@ -35,7 +36,6 @@ return {
         neotree = true,
         noice = true,
         notify = true,
-        snacks = true,
         telescope = true,
         treesitter_context = true,
         which_key = true,
